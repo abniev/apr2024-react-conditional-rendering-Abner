@@ -2,8 +2,8 @@ import "./App.css";
 import { useState } from "react";
 
 import Spinner from "./components/Spinner";
-// import MovieList from "./components/MovieList";
-import ImprovedMovieList from "./components/ImprovedMovieList";
+// import ProductList from "./components/ProductList";
+import ImprovedProductList from "./components/ImprovedProductList";
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -12,7 +12,7 @@ function App() {
   } else {
     return (
       <div className="App">
-        <ImprovedMovieList />
+        <ImprovedProductList />
       </div>
     );
   }
